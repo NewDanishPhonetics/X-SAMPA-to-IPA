@@ -1,4 +1,11 @@
-﻿^q::
+;This AHK script converts any selected text from X-SAMPA to IPA using the table at https://en.wikipedia.org/wiki/X-SAMPA.
+;To use, Install AHK from https://www.autohotkey.com, then run this AHK script
+;Select any text in any text editor, press the hotkey to transform the text according to the X-SAMPA to IPA table
+;Default hotkey is ALT+Q. Set hotkey in line 7 of this script. See https://www.autohotkey.com/docs/v2/howto/WriteHotkeys.htm for other modifiers.
+;Visit NewDanishPhonetics at https://github.com/NewDanishPhonetics and https://www.patreon.com/NewDanishPhonetics -- ruben@schwa.dk
+
+!q::
+ ^q::
 
  Clipboard := ""
  SendInput, ^c
