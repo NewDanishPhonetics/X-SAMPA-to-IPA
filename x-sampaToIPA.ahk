@@ -5,11 +5,10 @@
 ;Visit NewDanishPhonetics at https://github.com/NewDanishPhonetics and https://www.patreon.com/NewDanishPhonetics -- ruben@schwa.dk
 
 !q::
- ^q::
 
- Clipboard := ""
- SendInput, ^c
- ClipWait 0
+Clipboard := ""
+SendInput, ^c
+ClipWait 0
 	
 	Clipboard := StrReplace(Clipboard,"_R_F","᷈")
 	Clipboard := StrReplace(Clipboard,"_B_L","᷅")
@@ -154,5 +153,5 @@
 	Clipboard := StrReplace(Clipboard,"%","ˌ")
 
 
- SendInput, ^v
+SendInput, ^v
 Return
