@@ -152,6 +152,4 @@ ClipWait 0
 	Clipboard := StrReplace(Clipboard,"-\","‿")
 	Clipboard := StrReplace(Clipboard,"%","ˌ")
 
-
 SendInput, ^v
-Return
