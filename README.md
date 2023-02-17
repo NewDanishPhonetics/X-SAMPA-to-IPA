@@ -1,5 +1,5 @@
 # X-SAMPA-to-IPA
-Convert X-SAMPA to IPA with AutoHotkey
+Convert between X-SAMPA and IPA with AutoHotkey
 
 # How to
 
